@@ -1,0 +1,2333 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Laptop</title>
+    <!--<link href="style.css" rel="stylesheet" type="text/css" />-->
+    <style>
+        html {
+            height: max-content;
+            width: max-content;
+        }
+
+        /*body{
+            width: 1100px;
+            height: 900px;
+        }*/
+
+        #Profile-image {
+            width: 60px;
+            /*60px*/
+            height: 60px;
+            /*60px*/
+            text-align: center;
+            background-color: green;
+            color: rgb(143, 90, 0);
+        }
+
+        #button_profile {
+            width: 75px;
+            /*60px*/
+            height: 75px;
+            /*60px*/
+            background-color: green;
+            color: red;
+        }
+
+        #Profile-image:hover {
+            animation: profile 5s;
+        }
+
+        #button_profile:hover {
+            animation: profile 5s;
+        }
+
+        #textProfile {
+            position: absolute;
+            top: 1.2%;
+            text-align: left;
+            color: red;
+            font-size: 405%;
+        }
+
+        #textProfile:hover {
+            background-color: black;
+            color: yellow;
+        }
+
+        @keyframes profile {
+            100% {
+                background-color: red;
+            }
+
+            75% {
+                background-color: yellow;
+            }
+
+            50% {
+                background-color: rgb(0, 255, 0);
+            }
+
+            25% {
+                background-color: blue;
+            }
+
+            0% {
+                background-color: rgb(255, 90, 118);
+            }
+        }
+
+        #butt {
+            position: absolute;
+            align-items: center;
+            left: 43%;
+            width: 13%;
+            /*150px*/
+            height: 26%;
+            background-color: black;
+            color: rgb(255, 0, 0);
+            font-size: 320%;
+            /*30px*/
+            border-radius: 50%;
+            top: 35%;
+        }
+
+        #butt:hover {
+            color: rgb(234, 255, 0);
+            animation: Rotate 3s;
+        }
+
+        @keyframes Rotate {
+            0% {
+                background-color: rgb(255, 90, 118);
+                rotate: 40deg;
+                color: rgb(255, 0, 0);
+            }
+
+            15% {
+                background-color: rgb(90, 239, 255);
+                rotate: 80deg;
+                color: rgb(255, 115, 0);
+            }
+
+            25% {
+                background-color: blue;
+                rotate: 120deg;
+                color: rgb(255, 242, 0);
+            }
+
+            35% {
+                background-color: rgb(121, 53, 0);
+                rotate: 160deg;
+                color: rgb(119, 0, 255);
+            }
+
+            50% {
+                background-color: rgb(0, 255, 0);
+                rotate: 200deg;
+                color: rgb(0, 21, 255);
+            }
+
+            65% {
+                background-color: rgb(0, 255, 106);
+                rotate: 240deg;
+                color: rgb(255, 0, 60);
+            }
+
+            75% {
+                background-color: yellow;
+                rotate: 280deg;
+                color: rgb(255, 0, 251);
+            }
+
+            85% {
+                background-color: rgb(132, 162, 0);
+                rotate: 320deg;
+                color: rgb(0, 106, 255);
+            }
+
+            100% {
+                background-color: red;
+                rotate: 360deg;
+                color: rgb(60, 255, 0);
+            }
+        }
+
+        #healt1_1 {
+            color: rgb(255, 255, 255);
+            background-color: rgb(255, 255, 255);
+            width: 0%;
+            height: 0%;
+            position: absolute;
+        }
+
+        #healt2_1 {
+            color: rgb(255, 255, 255);
+            background-color: rgb(255, 255, 255);
+            position: absolute;
+            width: 0%;
+            height: 0%;
+        }
+
+        #b_b {
+            width: 0px;
+            height: 0px;
+            position: absolute;
+        }
+
+        #b_r {
+            width: 0px;
+            height: 0px;
+            position: absolute;
+        }
+
+        #brain{
+            width: 0px;
+            height: 0px;
+            position: absolute;
+        }
+
+        #Q {
+            width: 0px;
+            height: 0px;
+            position: absolute;
+            color: white;
+            background-color: white;
+            border-color: white;
+        }
+
+        #W {
+            width: 0px;
+            height: 0px;
+            position: absolute;
+            color: white;
+            background-color: white;
+            border-color: white;
+        }
+
+        #E {
+            width: 0px;
+            height: 0px;
+            position: absolute;
+            color: white;
+            background-color: white;
+            border-color: white;
+        }
+
+        #A {
+            width: 0px;
+            height: 0px;
+            position: absolute;
+            color: white;
+            background-color: white;
+            border-color: white;
+        }
+
+        #S {
+            width: 0px;
+            height: 0px;
+            position: absolute;
+            color: white;
+            background-color: white;
+            border-color: white;
+        }
+
+        #D {
+            width: 0px;
+            height: 0px;
+            position: absolute;
+            color: white;
+            background-color: white;
+            border-color: white;
+        }
+
+        #U {
+            width: 0px;
+            height: 0px;
+            position: absolute;
+            color: white;
+            background-color: white;
+            border-color: white;
+        }
+
+        #I {
+            width: 0px;
+            height: 0px;
+            position: absolute;
+            color: white;
+            background-color: white;
+            border-color: white;
+        }
+
+        #O {
+            width: 0px;
+            height: 0px;
+            position: absolute;
+            color: white;
+            background-color: white;
+            border-color: white;
+        }
+
+        #J {
+            width: 0px;
+            height: 0px;
+            position: absolute;
+            color: white;
+            background-color: white;
+            border-color: white;
+        }
+
+        #K {
+            width: 0px;
+            height: 0px;
+            position: absolute;
+            color: white;
+            background-color: white;
+            border-color: white;
+        }
+
+        #L {
+            width: 0px;
+            height: 0px;
+            position: absolute;
+            color: white;
+            background-color: white;
+            border-color: white;
+        }
+
+        #on_button {
+            color: white;
+            background-color: white;
+            position: absolute;
+            top: 15%;
+            width: 20px;
+            height: 30px;
+        }
+
+        #input {
+            position: absolute;
+            color: green;
+            background-color: rgb(255, 0, 0);
+            width: 1%;
+            height: 2%;
+            top: 40%;
+            left: 49.2%;
+        }
+
+        #arrow{
+            position: absolute;
+            width: 5%;
+            height: 10%;
+            top: 1%;
+            left: 94.5%;
+            color: red;
+            background-color: black;
+            border-radius: 50%;
+        }
+
+        #arrow:hover{
+            animation: Arrow 5s;
+        }
+
+        @keyframes Arrow{
+            0% {rotate: 10deg;}
+            1% {rotate: 20deg;}
+            2% {rotate: 30deg;}
+            3% {rotate: 40deg;}
+            4% {rotate: 50deg;}
+            5% {rotate: 60deg;}
+            6% {rotate: 70deg;}
+            7% {rotate: 80deg;}
+            8% {rotate: 90deg;}
+            9% {rotate: 100deg;}
+            10% {rotate: 110deg;}
+            11% {rotate: 120deg;}
+            11% {rotate: 130deg;}
+            12% {rotate: 140deg;}
+            13% {rotate: 150deg;}
+            14% {rotate: 160deg;}
+            15% {rotate: 170deg;}
+            16% {rotate: 180deg;}
+            17% {rotate: 190deg;}
+            18% {rotate: 200deg;}
+            19% {rotate: 210deg;}
+            20% {rotate: 220deg;}
+            21% {rotate: 230deg;}
+            22% {rotate: 240deg;}
+            23% {rotate: 250deg;}
+            24% {rotate: 260deg;}
+            25% {rotate: 270deg;}
+            26% {rotate: 280deg;}
+            27% {rotate: 290deg;}
+            28% {rotate: 300deg;}
+            29% {rotate: 310deg;}
+            30% {rotate: 320deg;}
+            31% {rotate: 330deg;}
+            32% {rotate: 340deg;}
+            34% {rotate: 350deg;}
+            35% {rotate: 360deg;}
+
+        }
+
+        #time{
+            position: absolute;
+            width: 10%;
+            height: 10%;
+            top: 1%;
+            left: 84%;
+            color: red;
+            background-color: black;
+            font-size: 260%;
+        }
+
+        #time:hover{
+            color: yellow;
+        }
+        /*
+        #xyB{
+            position: absolute;
+            background-color: black;
+            width: 112px;
+            height: 22px;
+            top:22%;
+            left:22.7%;
+        }
+        #xyR{
+            position: absolute;
+            background-color: black;
+            width: 112px;
+            height: 22px;
+            top:22%;
+            left:69.7%;
+        }
+        */
+    </style>
+</head>
+
+<body>
+    <a>
+        <button id="button_profile" onclick="profileOn()">
+            <img src="account.png" id="Profile-image" />
+        </button>
+    </a>
+    <a id="textProfile" onclick="bgRandom()">Profile</a><br><br>
+    <button id="time" onclick="time()">Time</button>
+    <button onclick="menu()"><img src="arrow.png" id="arrow"/></button>
+    <input type="text" id="input" onkeydown="input(event)" onkeyup="input1(event)">
+    <p id="Border"></p>
+    <a id="xyB"></a>
+    <a id="healt1_1">---------------------</a><br>
+    <button id="Q" onclick="Qq()">Q</button><button id="W" onclick="on1()">W</button><button id="E"
+        onclick="Ee()">E</button><button id="A" onclick="left1()">A</button><button id="S"
+        onclick="under1()">S</button><button id="D" onclick="right1()">D</button>
+    <a id="xyR"></a>
+    <a id="healt2_1">---------------------</a><br>
+    <button id="U" onclick="Uu()">U</button><button id="I" onclick="on2()">I</button><button id="O"
+        onclick="Oo()">O</button><button id="J" onclick="left2()">J</button><button id="K"
+        onclick="under2()">K</button><button id="L" onclick="right2()">L</button>
+    <img src="move_left_red.png" id="b_r" /><br><img src="move_right_blue.png" id="b_b" /><br><img src="heal_brean.png" id="brain"/>
+    <a id="X"></a><a id="Y"></a>
+    <button id="butt" onclick="menu()">Try it!</button>
+    <a id="RSTENA"></a><a id="RSTENA1"></a>
+    <canvas id="myCanvas"></canvas>
+    <audio id="finush">
+        <source src="Finish.mp4" type="audio/mp4">
+    </audio>
+    <audio id="attack">
+        <source src="Attack_4second.mp4" type="audio/mp4">
+    </audio>
+    <audio id="backgroundAudioZombue">
+        <source src="backgroundAudioZombue.mp4" type="audio/mp4">
+    </audio>
+    <script>
+
+        /*function restart(){
+            var minute=new Date();
+            var minuteNum=minute.getMinutes();
+            var hourNum=minute.getHours();
+            if(minuteNum1+2<=59){
+                minuteNum1=minuteNum1+2;
+            }
+            if(minuteNum1+2>59){
+                minuteNum1=((minuteNum1+2)-60);
+                hourNum1=hourNum1+1;
+            }
+            if((minuteNum==minuteNum1) && (hourNum==hourNum1)){
+                location.reload();
+            }
+            restart();
+        }
+
+        var minuteNum1=minuteNum;
+        var hourNum1=hourNum;*/
+
+        function time(){
+            var time = new Date();
+            document.getElementById("time").style.fontSize="160%";
+            document.getElementById("time").innerHTML = time.getHours()+"h/"+time.getMinutes()+"m/"+time.getSeconds()+"s";
+        }
+
+        var z = document.getElementById("backgroundAudioZombue");
+
+        function audioZombue(){
+            z.currentTime=4;
+            z.play();
+            audioZombue();
+        }
+
+        var y = document.getElementById("attack");
+
+        function audioAttack(){
+            y.currentTime=9;
+            y.play();
+        }
+
+        var x = document.getElementById("finush");
+
+        function audioFinush(){
+            x.currentTime=5;
+            x.play();
+        }
+
+        //function setCutTime(){
+        //    
+        //}
+
+        var BoolBrain=false; BoolBrain=Boolean(BoolBrain);
+        var randomNumberTopBrain=Math.round(Math.random()*100); randomNumberTopBrain=Number(randomNumberTopBrain);
+        var randomNumberLeftBrain=Math.round(Math.random()*100); randomNumberLeftBrain=Number(randomNumberLeftBrain);
+        var countClickBrain=0; countClickBrain=Number(countClickBrain);
+
+        function brain(){
+            var TopBrain; TopBrain=Number(TopBrain);
+            var LeftBrain; LeftBrain=Number(LeftBrain);
+            if(randomNumberTopBrain>=50 && randomNumberTopBrain<=100){
+                TopBrain=70;
+            }
+            if(randomNumberTopBrain>=25 && randomNumberTopBrain<=49){
+                TopBrain=50;
+            }
+            if(randomNumberTopBrain>=0 && randomNumberTopBrain<=24){
+                TopBrain=30;
+            }
+
+            if(randomNumberLeftBrain>=50 && randomNumberLeftBrain<=100){
+                LeftBrain=70;
+            }
+            if(randomNumberLeftBrain>=25 && randomNumberLeftBrain<=49){
+                LeftBrain=50;
+            }
+            if(randomNumberLeftBrain>=0 && randomNumberLeftBrain<=24){
+                LeftBrain=30;
+            }
+            if(countClickBrain==50){
+                document.getElementById("brain").style.width="5%";
+                document.getElementById("brain").style.height="10%";
+                document.getElementById("brain").style.top=TopBrain+"%";
+                document.getElementById("brain").style.left=LeftBrain+"%";
+            }
+            if((bBTop==TopBrain) && (100-bBRight==LeftBrain)){
+                document.getElementById("brain").style.width="0%";
+                document.getElementById("brain").style.height="0%";
+                count1=0;
+                randomNumberTopBrain=Math.round(Math.random()*100); randomNumberTopBrain=Number(randomNumberTopBrain);
+                randomNumberLeftBrain=Math.round(Math.random()*100); randomNumberLeftBrain=Number(randomNumberLeftBrain);
+            }
+            if((bRTop==TopBrain) && (100-bBRight==LeftBrain)){
+                document.getElementById("brain").style.width="0%";
+                document.getElementById("brain").style.height="0%";
+                count2=0;
+                randomNumberTopBrain=Math.round(Math.random()*100); randomNumberTopBrain=Number(randomNumberTopBrain);
+                randomNumberLeftBrain=Math.round(Math.random()*100); randomNumberLeftBrain=Number(randomNumberLeftBrain);
+            }
+        }
+
+        function input(event) {
+            let key = event.key;
+            if (key == "Q" || key == "q") {
+                Qq();
+                document.getElementById("Q").style.backgroundColor="rgb(60, 255, 0)";
+            }
+            if (key == "W" || key == "w") {
+                on1();
+                document.getElementById("W").style.backgroundColor="rgb(60, 255, 0)";
+            }
+            if (key == "E" || key == "e") {
+                Ee();
+                document.getElementById("E").style.backgroundColor="rgb(60, 255, 0)";
+            }
+            if (key == "A" || key == "a") {
+                left1();
+                document.getElementById("A").style.backgroundColor="rgb(60, 255, 0)";
+            }
+            if (key == "S" || key == "s") {
+                under1();
+                document.getElementById("S").style.backgroundColor="rgb(60, 255, 0)";
+            }
+            if (key == "D" || key == "d") {
+                right1();
+                document.getElementById("D").style.backgroundColor="rgb(60, 255, 0)";
+            }
+
+
+            if (key == "U" || key == "u") {
+                Oo();
+                document.getElementById("U").style.backgroundColor="rgb(60, 255, 0)";
+            }
+            if (key == "I" || key == "i") {
+                on2();
+                document.getElementById("I").style.backgroundColor="rgb(60, 255, 0)";
+            }
+            if (key == "O" || key == "o") {
+                Uu();
+                document.getElementById("O").style.backgroundColor="rgb(60, 255, 0)";
+            }
+            if (key == "J" || key == "j") {
+                right2();
+                document.getElementById("J").style.backgroundColor="rgb(60, 255, 0)";
+            }
+            if (key == "K" || key == "k") {
+                under2();
+                document.getElementById("K").style.backgroundColor="rgb(60, 255, 0)";
+            }
+            if (key == "L" || key == "l") {
+                left2();
+                document.getElementById("L").style.backgroundColor="rgb(60, 255, 0)";
+            }
+        }
+
+
+        function input1(event) {
+            let key = event.key;
+            if (key == "Q" || key == "q") {
+                document.getElementById("Q").style.backgroundColor="rgb(0, 0, 0)";
+            }
+            if (key == "W" || key == "w") {
+                document.getElementById("b_b").src="move_left_blue.png";
+                document.getElementById("W").style.backgroundColor="rgb(0, 0, 0)";
+            }
+            if (key == "E" || key == "e") {
+                document.getElementById("E").style.backgroundColor="rgb(0, 0, 0)";
+            }
+            if (key == "A" || key == "a") {
+                document.getElementById("A").style.backgroundColor="rgb(0, 0, 0)";
+            }
+            if (key == "S" || key == "s") {
+                document.getElementById("b_b").src="move_left_blue.png";
+                document.getElementById("S").style.backgroundColor="rgb(0, 0, 0)";
+            }
+            if (key == "D" || key == "d") {
+                document.getElementById("D").style.backgroundColor="rgb(0, 0, 0)";
+            }
+
+
+            
+            if (key == "U" || key == "u") {
+                document.getElementById("U").style.backgroundColor="rgb(0, 0, 0)";
+            }
+            if (key == "I" || key == "i") {
+                document.getElementById("b_r").src="move_left_red.png";
+                document.getElementById("I").style.backgroundColor="rgb(0, 0, 0)";
+            }
+            if (key == "O" || key == "o") {
+                document.getElementById("O").style.backgroundColor="rgb(0, 0, 0)";
+            }
+            if (key == "J" || key == "j") {
+                document.getElementById("J").style.backgroundColor="rgb(0, 0, 0)";
+            }
+            if (key == "K" || key == "k") {
+                document.getElementById("b_r").src="move_left_red.png";
+                document.getElementById("K").style.backgroundColor="rgb(0, 0, 0)";
+            }
+            if (key == "L" || key == "l") {
+                document.getElementById("L").style.backgroundColor="rgb(0, 0, 0)";
+            }
+        }
+
+        
+
+        function xy(event) {
+            //let x_b=event.clientX;
+            //let y_b=event.clientY;
+            //let x_r=event.clientX;
+            //let y_r=event.clientY;
+            document.getElementById("xyB").innerHTML = "X(-):" + bBRight + " " + " Y(|):" + bBTop;
+            document.getElementById("xyR").innerHTML = "X(-):" + bRRight + " " + " Y(|):" + bRTop;
+        }
+
+
+        var profile = false; profile = Boolean(profile);
+        var telLap = false; telLap = Boolean(telLap);
+
+        function profileOn() {
+            if (profile == false) {
+                alert("Profile");
+                var chouseTF = prompt("1=Telefon / 2=Laptop / 3=Profile / 4=Download"); chouseTF = String(chouseTF);
+                if (chouseTF == "1") {
+                    telLap = true;
+                    alert("1");
+                    location.href = "file:///C:/Users/Alex/OneDrive/HTML_CSS_JS/one_fight_game_site_telefon.html";
+                }
+                if (chouseTF == "2") {
+                    telLap = false;
+                    alert("2");
+                }
+                if (chouseTF == "3") {
+                    telLap = true;
+                    alert("3");
+                    location.href = "file:///C:/Users/Alex/OneDrive/HTML_CSS_JS/one_fight_game_site_profile.html";
+                }
+                if (chouseTF == "4") {
+                    telLap = true;
+                    alert("4");
+                    location.href = "file:///C:/Users/Alex/OneDrive/HTML_CSS_JS/Download_Button_Fight_Game_Site..html";
+                }
+                while (chouseTF != "1" && chouseTF != "2" && chouseTF != "3" && chouseTF != "4") {
+                    var chouseTF = prompt("1=Telefon / 2=Laptop / 3=Profile / 4=Download"); chouseTF = String(chouseTF);
+                }
+                var name = prompt("Name - "); name = String(name);
+                if (name == "God_Alex") {
+                    var GodProfile = Math.round(Math.random() * 1001);
+                    profile = true;
+                    document.getElementById("textProfile").innerHTML = "Name - God." + GodProfile;
+                }
+                if (name != "God_Alex") {
+                    var age = prompt("Age - "); age = Number(age);
+                    if (age < 18) {
+                        while (age < 18 || age > 100) {
+                            alert("You don't have 18 years");
+                            var age = prompt("Age - "); age = Number(age);
+                        }
+                    }
+                    if (age >= 18 && age <= 100) {
+                        profile = true;
+                    }
+                    document.getElementById("textProfile").innerHTML = "Name - " + name + " / " + "Age - " + age;
+                }
+            }
+        }
+
+        //"|---------|"
+        //"|--Start--|"
+        //"|---------|"
+
+        function menu() {
+            if (profile == true) {
+                /*if (telLap == true) {
+                    document.getElementById("butt").style.left = "150%";
+                    document.getElementById("butt").style.borderRadius = "0%";
+                    document.getElementById("butt").style.width = "135px";
+                    document.getElementById("butt").style.height = "135px";
+                    document.getElementById("butt").innerHTML = "|----------|" + "\n" + "|--start--|" + "\n" + "|----------|";
+                    var str = prompt("Start a game Y/N : "); str = String(str);
+                    if (str == "Y") {
+
+                        //document.getElementById("input").style.top="20%";
+
+                        document.getElementById("Border").style.border = "1px";
+                        document.getElementById("Border").style.color = "black";
+                        document.getElementById("Border").style.top = "60%";
+                        document.getElementById("Border").style.width = "100%";
+                        document.getElementById("Border").style.height = "30%";
+
+                        document.getElementById("butt").style.borderRadius = "0%";
+                        document.getElementById("butt").style.width = "100%";
+                        document.getElementById("butt").style.height = "35px";
+                        document.getElementById("butt").style.left = "10%";
+                        document.getElementById("butt").style.top = "85%";
+                        document.getElementById("butt").innerHTML = "--------------------------------------------";
+                        document.getElementById("butt").style.backgroundColor = "rgb(143, 90, 0)";
+                        document.getElementById("butt").style.color = "rgb(143, 90, 0)";
+
+                        document.getElementById("xyB").innerHTML = "X:0  Y:0";
+                        document.getElementById("xyB").style.position = "absolute";
+                        document.getElementById("xyB").style.backgroundColor = "rgb(0, 0, 0)";
+                        document.getElementById("xyB").style.color = "rgb(255, 0, 0)";
+                        document.getElementById("xyB").style.textAlign = "center";
+                        document.getElementById("xyB").style.width = "112px";
+                        document.getElementById("xyB").style.height = "22px";
+                        document.getElementById("xyB").style.top = "22%";
+                        document.getElementById("xyB").style.left = "22.7%";
+
+                        document.getElementById("healt1_1").style.color = "rgb(255, 0, 0)";
+                        document.getElementById("healt1_1").style.backgroundColor = "rgb(0, 255, 0)";
+                        document.getElementById("healt1_1").style.position = "absolute";
+                        document.getElementById("healt1_1").style.width = "112px";
+                        document.getElementById("healt1_1").style.height = "15px";
+                        document.getElementById("healt1_1").style.top = "25%";
+                        document.getElementById("healt1_1").style.right = "70%";
+                        //document.getElementById("healt1_1").style.left="20%";
+
+                        document.getElementById("xyR").innerHTML = "X:0  Y:0";
+                        document.getElementById("xyR").style.position = "absolute";
+                        document.getElementById("xyR").style.backgroundColor = "rgb(0, 0, 0)";
+                        document.getElementById("xyR").style.color = "rgb(255, 0, 0)";
+                        document.getElementById("xyR").style.textAlign = "center";
+                        document.getElementById("xyR").style.width = "112px";
+                        document.getElementById("xyR").style.height = "22px";
+                        document.getElementById("xyR").style.top = "22%";
+                        document.getElementById("xyR").style.left = "69.7%";
+
+                        document.getElementById("healt2_1").style.color = "rgb(255, 0, 0)";
+                        document.getElementById("healt2_1").style.backgroundColor = "rgb(0, 255, 0)";
+                        document.getElementById("healt2_1").style.position = "absolute";
+                        document.getElementById("healt2_1").style.width = "112px";
+                        document.getElementById("healt2_1").style.height = "15px";
+                        document.getElementById("healt2_1").style.top = "25%";
+                        document.getElementById("healt2_1").style.right = "23%";//30
+
+                        document.getElementById("b_b").style.width = "100px";
+                        document.getElementById("b_b").style.height = "100px";
+                        document.getElementById("b_b").style.top = "70%";
+                        document.getElementById("b_b").style.right = "73%";
+                        //document.getElementById("b_b").style.left="20%";
+
+                        document.getElementById("b_r").style.width = "100px";
+                        document.getElementById("b_r").style.height = "100px";
+                        document.getElementById("b_r").style.top = "70%";
+                        document.getElementById("b_r").style.right = "20%";
+
+                        document.getElementById("Q").style.top = "84%";
+                        document.getElementById("Q").style.left = "1%";
+                        document.getElementById("Q").style.color = "rgb(255, 0, 0)";
+                        document.getElementById("Q").style.backgroundColor = "rgb(0, 0, 0)";
+                        document.getElementById("Q").style.width = "40px";
+                        document.getElementById("Q").style.height = "40px";
+
+                        document.getElementById("W").style.top = "84%";
+                        document.getElementById("W").style.left = "4%";
+                        document.getElementById("W").style.color = "rgb(255, 0, 0)";
+                        document.getElementById("W").style.backgroundColor = "rgb(0, 0, 0)";
+                        document.getElementById("W").style.width = "40px";
+                        document.getElementById("W").style.height = "40px";
+
+                        document.getElementById("E").style.top = "84%";
+                        document.getElementById("E").style.left = "7%";
+                        document.getElementById("E").style.color = "rgb(255, 0, 0)";
+                        document.getElementById("E").style.backgroundColor = "rgb(0, 0, 0)";
+                        document.getElementById("E").style.width = "40px";
+                        document.getElementById("E").style.height = "40px";
+
+                        document.getElementById("A").style.top = "90%";
+                        document.getElementById("A").style.left = "1%";
+                        document.getElementById("A").style.color = "rgb(255, 0, 0)";
+                        document.getElementById("A").style.backgroundColor = "rgb(0, 0, 0)";
+                        document.getElementById("A").style.width = "40px";
+                        document.getElementById("A").style.height = "40px";
+
+                        document.getElementById("S").style.top = "90%";
+                        document.getElementById("S").style.left = "4%";
+                        document.getElementById("S").style.color = "rgb(255, 0, 0)";
+                        document.getElementById("S").style.backgroundColor = "rgb(0, 0, 0)";
+                        document.getElementById("S").style.width = "40px";
+                        document.getElementById("S").style.height = "40px";
+
+                        document.getElementById("D").style.top = "90%";
+                        document.getElementById("D").style.left = "7%";
+                        document.getElementById("D").style.color = "rgb(255, 0, 0)";
+                        document.getElementById("D").style.backgroundColor = "rgb(0, 0, 0)";
+                        document.getElementById("D").style.width = "40px";
+                        document.getElementById("D").style.height = "40px";
+
+
+
+
+                        document.getElementById("U").style.top = "84%";
+                        document.getElementById("U").style.right = "1%";
+                        document.getElementById("U").style.color = "rgb(255, 0, 0)";
+                        document.getElementById("U").style.backgroundColor = "rgb(0, 0, 0)";
+                        document.getElementById("U").style.width = "40px";
+                        document.getElementById("U").style.height = "40px";
+
+                        document.getElementById("I").style.top = "84%";
+                        document.getElementById("I").style.right = "4%";
+                        document.getElementById("I").style.color = "rgb(255, 0, 0)";
+                        document.getElementById("I").style.backgroundColor = "rgb(0, 0, 0)";
+                        document.getElementById("I").style.width = "40px";
+                        document.getElementById("I").style.height = "40px";
+
+                        document.getElementById("O").style.top = "84%";
+                        document.getElementById("O").style.right = "7%";
+                        document.getElementById("O").style.color = "rgb(255, 0, 0)";
+                        document.getElementById("O").style.backgroundColor = "rgb(0, 0, 0)";
+                        document.getElementById("O").style.width = "40px";
+                        document.getElementById("O").style.height = "40px";
+
+                        document.getElementById("J").style.top = "90%";
+                        document.getElementById("J").style.right = "1%";
+                        document.getElementById("J").style.color = "rgb(255, 0, 0)";
+                        document.getElementById("J").style.backgroundColor = "rgb(0, 0, 0)";
+                        document.getElementById("J").style.width = "40px";
+                        document.getElementById("J").style.height = "40px";
+
+                        document.getElementById("K").style.top = "90%";
+                        document.getElementById("K").style.right = "4%";
+                        document.getElementById("K").style.color = "rgb(255, 0, 0)";
+                        document.getElementById("K").style.backgroundColor = "rgb(0, 0, 0)";
+                        document.getElementById("K").style.width = "40px";
+                        document.getElementById("K").style.height = "40px";
+
+                        document.getElementById("L").style.top = "90%";
+                        document.getElementById("L").style.right = "7%";
+                        document.getElementById("L").style.color = "rgb(255, 0, 0)";
+                        document.getElementById("L").style.backgroundColor = "rgb(0, 0, 0)";
+                        document.getElementById("L").style.width = "40px";
+                        document.getElementById("L").style.height = "40px";
+
+                        alert("Start a game");
+                        var boolTBalls = true; boolTBalls = Boolean(boolTBalls);
+                    }
+                    if (str == "N") {
+                        document.getElementById("butt").style.borderRadius = "50%";
+                        document.getElementById("butt").style.width = "150px";
+                        document.getElementById("butt").style.height = "150px";
+                        document.getElementById("butt").innerHTML = "Try it!";
+                    }
+                }*/
+                if (telLap == false) {
+                    document.getElementById("butt").style.borderRadius = "0%";
+                    document.getElementById("butt").style.width = "135px";
+                    document.getElementById("butt").style.height = "135px";
+                    document.getElementById("butt").innerHTML = "Start";
+                    var str = prompt("Start a game Y/N : "); str = String(str);
+                    if (str == "Y" || str == "y") {
+
+                        document.body.style.backgroundImage = "url('stena.png')";
+                        document.body.style.width = "max-content";
+                        document.body.style.height = "max-content";
+
+                        document.getElementById("input").style.top = "19.5%";
+
+                        document.getElementById("butt").style.borderRadius = "0%";
+                        document.getElementById("butt").style.width = "80%";
+                        document.getElementById("butt").style.height = "35px";
+                        document.getElementById("butt").style.left = "10%";
+                        document.getElementById("butt").style.top = "85%";
+                        document.getElementById("butt").innerHTML = "";
+                        document.getElementById("butt").style.backgroundColor = "rgb(143, 90, 0)";
+                        document.getElementById("butt").style.color = "rgb(143, 90, 0)";
+
+                        document.getElementById("RSTENA").style.position = "absolute";
+                        document.getElementById("RSTENA").style.width = "2%";
+                        document.getElementById("RSTENA").style.height = "60%";
+                        document.getElementById("RSTENA").style.left = "49%";
+                        document.getElementById("RSTENA").style.top = "25%";
+                        document.getElementById("RSTENA").style.backgroundColor = "rgb(143, 90, 0)";
+                        document.getElementById("RSTENA").style.color = "rgb(143, 90, 0)";
+
+                        document.getElementById("xyB").innerHTML = "X:0  Y:0";
+                        document.getElementById("xyB").style.position = "absolute";
+                        document.getElementById("xyB").style.backgroundColor = "rgb(0, 0, 0)";
+                        document.getElementById("xyB").style.color = "rgb(255, 0, 0)";
+                        document.getElementById("xyB").style.textAlign = "center";
+                        document.getElementById("xyB").style.width = "112px";
+                        document.getElementById("xyB").style.height = "22px";
+                        document.getElementById("xyB").style.top = "22%";
+                        document.getElementById("xyB").style.left = "22.7%";
+
+                        document.getElementById("healt1_1").innerHTML = "---------------------";
+                        document.getElementById("healt1_1").style.color = "rgb(255, 0, 0)";
+                        document.getElementById("healt1_1").style.backgroundColor = "rgb(0, 255, 0)";
+                        document.getElementById("healt1_1").style.position = "absolute";
+                        document.getElementById("healt1_1").style.width = "112px";
+                        document.getElementById("healt1_1").style.height = "15px";
+                        document.getElementById("healt1_1").style.top = "25%";
+                        document.getElementById("healt1_1").style.right = "70%";
+                        //document.getElementById("healt1_1").style.left="20%";
+
+                        document.getElementById("xyR").innerHTML = "X:0  Y:0";
+                        document.getElementById("xyR").style.position = "absolute";
+                        document.getElementById("xyR").style.backgroundColor = "rgb(0, 0, 0)";
+                        document.getElementById("xyR").style.color = "rgb(255, 0, 0)";
+                        document.getElementById("xyR").style.textAlign = "center";
+                        document.getElementById("xyR").style.width = "112px";
+                        document.getElementById("xyR").style.height = "22px";
+                        document.getElementById("xyR").style.top = "22%";
+                        document.getElementById("xyR").style.left = "69.7%";
+
+                        document.getElementById("healt2_1").innerHTML = "---------------------";
+                        document.getElementById("healt2_1").style.color = "rgb(255, 0, 0)";
+                        document.getElementById("healt2_1").style.backgroundColor = "rgb(0, 255, 0)";
+                        document.getElementById("healt2_1").style.position = "absolute";
+                        document.getElementById("healt2_1").style.width = "112px";
+                        document.getElementById("healt2_1").style.height = "15px";
+                        document.getElementById("healt2_1").style.top = "25%";
+                        document.getElementById("healt2_1").style.right = "23%";//30
+
+                        document.getElementById("b_b").style.width = "100px";
+                        document.getElementById("b_b").style.height = "100px";
+                        document.getElementById("b_b").style.top = "70%";
+                        document.getElementById("b_b").style.right = "73%";
+                        //document.getElementById("b_b").style.left="20%";
+
+                        document.getElementById("b_r").style.width = "100px";
+                        document.getElementById("b_r").style.height = "100px";
+                        document.getElementById("b_r").style.top = "70%";
+                        document.getElementById("b_r").style.right = "20%";
+
+                        document.getElementById("Q").style.top = "84%";
+                        document.getElementById("Q").style.left = "1%";
+                        document.getElementById("Q").style.color = "rgb(255, 0, 0)";
+                        document.getElementById("Q").style.backgroundColor = "rgb(0, 0, 0)";
+                        document.getElementById("Q").style.width = "40px";
+                        document.getElementById("Q").style.height = "40px";
+
+                        document.getElementById("W").style.top = "84%";
+                        document.getElementById("W").style.left = "4%";
+                        document.getElementById("W").style.color = "rgb(255, 0, 0)";
+                        document.getElementById("W").style.backgroundColor = "rgb(0, 0, 0)";
+                        document.getElementById("W").style.width = "40px";
+                        document.getElementById("W").style.height = "40px";
+
+                        document.getElementById("E").style.top = "84%";
+                        document.getElementById("E").style.left = "7%";
+                        document.getElementById("E").style.color = "rgb(255, 0, 0)";
+                        document.getElementById("E").style.backgroundColor = "rgb(0, 0, 0)";
+                        document.getElementById("E").style.width = "40px";
+                        document.getElementById("E").style.height = "40px";
+
+                        document.getElementById("A").style.top = "90%";
+                        document.getElementById("A").style.left = "1%";
+                        document.getElementById("A").style.color = "rgb(255, 0, 0)";
+                        document.getElementById("A").style.backgroundColor = "rgb(0, 0, 0)";
+                        document.getElementById("A").style.width = "40px";
+                        document.getElementById("A").style.height = "40px";
+
+                        document.getElementById("S").style.top = "90%";
+                        document.getElementById("S").style.left = "4%";
+                        document.getElementById("S").style.color = "rgb(255, 0, 0)";
+                        document.getElementById("S").style.backgroundColor = "rgb(0, 0, 0)";
+                        document.getElementById("S").style.width = "40px";
+                        document.getElementById("S").style.height = "40px";
+
+                        document.getElementById("D").style.top = "90%";
+                        document.getElementById("D").style.left = "7%";
+                        document.getElementById("D").style.color = "rgb(255, 0, 0)";
+                        document.getElementById("D").style.backgroundColor = "rgb(0, 0, 0)";
+                        document.getElementById("D").style.width = "40px";
+                        document.getElementById("D").style.height = "40px";
+
+
+
+
+
+                        document.getElementById("U").style.top = "84%";
+                        document.getElementById("U").style.right = "7%";
+                        document.getElementById("U").style.color = "rgb(255, 0, 0)";
+                        document.getElementById("U").style.backgroundColor = "rgb(0, 0, 0)";
+                        document.getElementById("U").style.width = "40px";
+                        document.getElementById("U").style.height = "40px";
+
+                        document.getElementById("I").style.top = "84%";
+                        document.getElementById("I").style.right = "4%";
+                        document.getElementById("I").style.color = "rgb(255, 0, 0)";
+                        document.getElementById("I").style.backgroundColor = "rgb(0, 0, 0)";
+                        document.getElementById("I").style.width = "40px";
+                        document.getElementById("I").style.height = "40px";
+
+                        document.getElementById("O").style.top = "84%";
+                        document.getElementById("O").style.right = "1%";
+                        document.getElementById("O").style.color = "rgb(255, 0, 0)";
+                        document.getElementById("O").style.backgroundColor = "rgb(0, 0, 0)";
+                        document.getElementById("O").style.width = "40px";
+                        document.getElementById("O").style.height = "40px";
+
+                        document.getElementById("J").style.top = "90%";
+                        document.getElementById("J").style.right = "7%";
+                        document.getElementById("J").style.color = "rgb(255, 0, 0)";
+                        document.getElementById("J").style.backgroundColor = "rgb(0, 0, 0)";
+                        document.getElementById("J").style.width = "40px";
+                        document.getElementById("J").style.height = "40px";
+
+                        document.getElementById("K").style.top = "90%";
+                        document.getElementById("K").style.right = "4%";
+                        document.getElementById("K").style.color = "rgb(255, 0, 0)";
+                        document.getElementById("K").style.backgroundColor = "rgb(0, 0, 0)";
+                        document.getElementById("K").style.width = "40px";
+                        document.getElementById("K").style.height = "40px";
+
+                        document.getElementById("L").style.top = "90%";
+                        document.getElementById("L").style.right = "1%";
+                        document.getElementById("L").style.color = "rgb(255, 0, 0)";
+                        document.getElementById("L").style.backgroundColor = "rgb(0, 0, 0)";
+                        document.getElementById("L").style.width = "40px";
+                        document.getElementById("L").style.height = "40px";
+
+                        alert("Start a game");
+                        var boolTBalls = true; boolTBalls = Boolean(boolTBalls);
+                        
+                        audioZombue();
+                        /*while(boolTBalls==true){
+                            let bRTop=70; bRTop=Number(bRTop);
+                            let bRRight=20; bRRight=Number(bRRight);
+
+                            var str123=prompt("ball_red"); str123=String(str123);
+                            if(str123=="W" || str123=="w"){
+                                bRTop-=20;
+                                document.getElementById("b_r").style.top=bRTop.toString()+"%";
+                            }
+                            if(str123=="A" || str123=="a"){
+                                bRRight-=10;
+                                document.getElementById("b_r").style.right=bRRight.toString()+"%";
+                            }
+                            if(str123=="S" || str123=="s"){
+                                bRTop+=20;
+                                document.getElementById("b_r").style.top=bRTop.toString()+"%";
+                            }
+                            if(str123=="D" || str123=="d"){
+                                bRRight+=10;
+                                document.getElementById("b_r").style.right=bRRight.toString()+"%";
+                            }
+
+                            let bBTop=70; bBTop=Number(bBTop);
+                            let bBRight=70; bBRight=Number(bBRight);
+
+
+                            str123=prompt("ball_blue"); str123=String(str);
+                            if(str123=="I" || str123=="i"){
+                                bBTop-=20;
+                                document.getElementById("b_b").style.top=bBTop.toString()+"%";
+                            }
+                            if(str123=="J" || str123=="j"){
+                                bBRight-=10;
+                                document.getElementById("b_b").style.right=bBRight.toString()+"%";
+                            }
+                            if(str123=="K" || str123=="k"){
+                                bBTop+=20;
+                                document.getElementById("b_b").style.top=bBTop.toString()+"%";
+                            }
+                            if(str123=="L" || str123=="l"){
+                                bBRight+=10;
+                                document.getElementById("b_b").style.right=bBRight.toString()+"%";
+                                
+                            }
+
+                            if(str123=="Exit"){
+                                break;
+                                boolTBalls=false;
+                            }
+                        }
+                        */
+                        //document.getElementById("b_b").style.
+                    }
+                    if (str == "N" || str=="n") {
+                        document.getElementById("butt").style.borderRadius = "50%";
+                        document.getElementById("butt").style.width = "150px";
+                        document.getElementById("butt").style.height = "150px";
+                        document.getElementById("butt").innerHTML = "Try it!";
+                    }
+                }
+            }
+            if (profile == false) {
+                alert("You don't have profile !");
+            }
+        }
+
+        var lavaCount = 0; lavaCount = Number(lavaCount);
+        var boolLava = false; boolLava = Boolean(boolLava);
+
+        var countStenaNum = 0; countStenaNum = Number(countStenaNum);
+
+        var counterNum = 1; counterNum = Number(counterNum);
+
+        var boolB_B = false; boolB_B = Boolean(boolB_B);
+        var boolB_R = false; boolB_R = Boolean(boolB_R);
+
+        var count1 = 0; count1 = Number(count1);
+        var count2 = 0; count2 = Number(count2);
+
+        //var TopNunber = 70; TopNunber = Number(TopNunber);
+
+        var bBTop = 70; bBTop = Number(bBTop);
+        var bBRight = 70; bBRight = Number(bBRight);
+
+        function Qq() {
+            if (counterNum == 2) {
+                counterNum = 3;
+                if (counterNum1 == 3) {
+                    document.getElementById("RSTENA").style.width = "0%";
+                    document.getElementById("RSTENA").style.height = "0%";
+                    document.getElementById("RSTENA").style.left = "99%";
+                    document.getElementById("RSTENA").style.top = "1%";
+                    countStenaNum = 1;
+                    document.getElementById("RSTENA1").style.position = "absolute";
+                    document.getElementById("RSTENA1").style.width = "2%";
+                    document.getElementById("RSTENA1").style.height = "30%";
+                    document.getElementById("RSTENA1").style.left = "49%";
+                    document.getElementById("RSTENA1").style.top = "50%";
+                    document.getElementById("RSTENA1").style.backgroundColor = "rgb(143, 90, 0)";
+                    document.getElementById("RSTENA1").style.color = "rgb(143, 90, 0)";
+                }
+            }
+            if (counterNum == 1) {
+                counterNum = 2;
+            }
+            if (bBTop - 20 >= 30 && bBRight + 10 <= 90 && counterNum == 3 && counterNum1 == 3) {
+                bBTop -= 20;
+                document.getElementById("b_b").style.top = bBTop + "%";
+                boolB_R = false;
+                boolB_B = true;
+                //live();
+
+                bBRight += 10;
+                document.getElementById("b_b").style.right = bBRight + "%";
+                boolB_R = false;
+                boolB_B = true;
+
+                document.getElementById("b_b").src="move_left_blue.png";
+
+                lavaCount = lavaCount + 1;
+                if (lavaCount == 40) {
+                    boolLava = true;
+                }
+                if (lavaCount >= 40 && lavaCount<=79 && boolLava == true) {
+                    document.getElementById("butt").style.backgroundColor = "rgb(255, 0, 0)";
+                    document.getElementById("butt").style.color = "rgb(255, 0, 0)";
+                    /*if (bBTop == 70) {
+                        count1 += 1;
+                    }*/
+                }
+                if (lavaCount == 80 && boolLava == true) {
+                    document.getElementById("butt").style.backgroundColor = "rgb(143, 90, 0)";
+                    document.getElementById("butt").style.color = "rgb(143, 90, 0)";
+                    lavaCount = 0;
+                }
+                countClickBrain=countClickBrain+1;
+                live();
+                xy(event);
+            }
+        }
+        function on1() {
+            if (counterNum == 2) {
+                counterNum = 3;
+                if (counterNum1 == 3) {
+                    document.getElementById("RSTENA").style.width = "0%";
+                    document.getElementById("RSTENA").style.height = "0%";
+                    document.getElementById("RSTENA").style.left = "99%";
+                    document.getElementById("RSTENA").style.top = "1%";
+                }
+            }
+            if (counterNum == 1) {
+                counterNum = 2;
+            }
+            if (bBTop - 20 >= 30 && counterNum == 3 && counterNum1 == 3) {
+                bBTop -= 20;
+                document.getElementById("b_b").style.top = bBTop + "%";
+                boolB_R = false;
+                boolB_B = true;
+
+                document.getElementById("b_b").src="jump_left _blue.png";
+
+                lavaCount = lavaCount + 1;
+                if (lavaCount == 40) {
+                    boolLava = true;
+                }
+                if (lavaCount >= 40 && lavaCount<=79 && boolLava == true) {
+                    document.getElementById("butt").style.backgroundColor = "rgb(255, 0, 0)";
+                    document.getElementById("butt").style.color = "rgb(255, 0, 0)";
+                    /*if (bBTop == 70) {
+                        count1 += 1;
+                    }*/
+                }
+                if (lavaCount == 80 && boolLava == true) {
+                    document.getElementById("butt").style.backgroundColor = "rgb(143, 90, 0)";
+                    document.getElementById("butt").style.color = "rgb(143, 90, 0)";
+                    lavaCount = 0;
+                }
+                countClickBrain=countClickBrain+1;
+                live();
+                xy(event);
+            }
+        }
+        function Ee() {
+            if (counterNum == 2) {
+                counterNum = 3;
+                if (counterNum1 == 3) {
+                    document.getElementById("RSTENA").style.width = "0%";
+                    document.getElementById("RSTENA").style.height = "0%";
+                    document.getElementById("RSTENA").style.left = "99%";
+                    document.getElementById("RSTENA").style.top = "1%";
+                }
+            }
+            if (counterNum == 1) {
+                counterNum = 2;
+            }
+            if (bBTop - 20 >= 30 && bBRight - 10 >= 0 && counterNum == 3 && counterNum1 == 3) {
+                bBTop -= 20;
+                document.getElementById("b_b").style.top = bBTop + "%";
+                boolB_R = false;
+                boolB_B = true;
+                //live();
+
+                bBRight -= 10;
+                document.getElementById("b_b").style.right = bBRight + "%";
+                boolB_R = false;
+                boolB_B = true;
+
+                document.getElementById("b_b").src="move_right_blue.png";
+
+                lavaCount = lavaCount + 1;
+                if (lavaCount == 40) {
+                    boolLava = true;
+                }
+                if (lavaCount >= 40 && lavaCount<=79 && boolLava == true) {
+                    document.getElementById("butt").style.backgroundColor = "rgb(255, 0, 0)";
+                    document.getElementById("butt").style.color = "rgb(255, 0, 0)";
+                    /*if (bBTop == 70) {
+                        count1 += 1;
+                    }*/
+                }
+                if (lavaCount == 80 && boolLava == true) {
+                    document.getElementById("butt").style.backgroundColor = "rgb(143, 90, 0)";
+                    document.getElementById("butt").style.color = "rgb(143, 90, 0)";
+                    lavaCount = 0;
+                }
+                countClickBrain=countClickBrain+1;
+                live();
+                xy(event);
+            }
+        }
+        function left1() {
+            if (counterNum == 2) {
+                counterNum = 3;
+                if (counterNum1 == 3) {
+                    document.getElementById("RSTENA").style.width = "0%";
+                    document.getElementById("RSTENA").style.height = "0%";
+                    document.getElementById("RSTENA").style.left = "99%";
+                    document.getElementById("RSTENA").style.top = "1%";
+                }
+            }
+            if (counterNum == 1) {
+                counterNum = 2;
+            }
+            if (bBRight + 10 <= 90 && counterNum == 3 && counterNum1 == 3) {
+                bBRight += 10;
+                document.getElementById("b_b").style.right = bBRight + "%";
+                boolB_R = false;
+                boolB_B = true;
+
+                document.getElementById("b_b").src="move_left_blue.png";
+
+                lavaCount = lavaCount + 1;
+                if (lavaCount == 40) {
+                    boolLava = true;
+                }
+                if (lavaCount >= 40 && lavaCount<=79 && boolLava == true) {
+                    document.getElementById("butt").style.backgroundColor = "rgb(255, 0, 0)";
+                    document.getElementById("butt").style.color = "rgb(255, 0, 0)";
+                    /*if (bBTop == 70) {
+                        count1 += 1;
+                    }*/
+                }
+                if (lavaCount == 80 && boolLava == true) {
+                    document.getElementById("butt").style.backgroundColor = "rgb(143, 90, 0)";
+                    document.getElementById("butt").style.color = "rgb(143, 90, 0)";
+                    lavaCount = 0;
+                }
+                countClickBrain=countClickBrain+1;
+                live();
+                xy(event);
+            }
+        }
+        function under1() {
+            if (counterNum == 2) {
+                counterNum = 3;
+                if (counterNum1 == 3) {
+                    document.getElementById("RSTENA").style.width = "0%";
+                    document.getElementById("RSTENA").style.height = "0%";
+                    document.getElementById("RSTENA").style.left = "99%";
+                    document.getElementById("RSTENA").style.top = "1%";
+                }
+            }
+            if (counterNum == 1) {
+                counterNum = 2;
+            }
+            if (bBTop + 20 <= 70 && counterNum == 3 && counterNum1 == 3) {
+                bBTop += 20;
+                document.getElementById("b_b").style.top = bBTop + "%";
+                boolB_R = false;
+                boolB_B = true;
+
+                //document.getElementById("b_b").src="move_right_blue.png";
+                document.getElementById("b_b").src="jump_left _blue.png";
+
+                lavaCount = lavaCount + 1;
+                if (lavaCount == 40) {
+                    boolLava = true;
+                }
+                if (lavaCount >= 40 && lavaCount<=79 && boolLava == true) {
+                    document.getElementById("butt").style.backgroundColor = "rgb(255, 0, 0)";
+                    document.getElementById("butt").style.color = "rgb(255, 0, 0)";
+                    /*if (bBTop == 70) {
+                        count1 += 1;
+                    }*/
+                }
+                if (lavaCount == 80 && boolLava == true) {
+                    document.getElementById("butt").style.backgroundColor = "rgb(143, 90, 0)";
+                    document.getElementById("butt").style.color = "rgb(143, 90, 0)";
+                    lavaCount = 0;
+                }
+                countClickBrain=countClickBrain+1;
+                live();
+                xy(event);
+            }
+        }
+        function right1() {
+            if (counterNum == 2) {
+                counterNum = 3;
+                if (counterNum1 == 3) {
+                    document.getElementById("RSTENA").style.width = "0%";
+                    document.getElementById("RSTENA").style.height = "0%";
+                    document.getElementById("RSTENA").style.left = "99%";
+                    document.getElementById("RSTENA").style.top = "1%";
+                }
+            }
+            if (counterNum == 1) {
+                counterNum = 2;
+            }
+            if (bBRight - 10 >= 0 && counterNum == 3 && counterNum1 == 3) {
+                bBRight -= 10;
+                document.getElementById("b_b").style.right = bBRight + "%";
+                boolB_R = false;
+                boolB_B = true;
+
+                document.getElementById("b_b").src="move_right_blue.png";
+
+                lavaCount = lavaCount + 1;
+                if (lavaCount == 40) {
+                    boolLava = true;
+                }
+                if (lavaCount >= 40 && lavaCount<=79 && boolLava == true) {
+                    document.getElementById("butt").style.backgroundColor = "rgb(255, 0, 0)";
+                    document.getElementById("butt").style.color = "rgb(255, 0, 0)";
+                    /*if (bBTop == 70) {
+                        count1 += 1;
+                    }*/
+                }
+                if (lavaCount == 80 && boolLava == true) {
+                    document.getElementById("butt").style.backgroundColor = "rgb(143, 90, 0)";
+                    document.getElementById("butt").style.color = "rgb(143, 90, 0)";
+                    lavaCount = 0;
+                }
+                countClickBrain=countClickBrain+1;
+                live();
+                xy(event);
+            }
+        }
+        /*if(boolB_B==true){
+            if(bBTop==bRTop){
+                if((bBRight-bRRight)<=30 || (bRRight-bBRight)<=30){
+                    if(count2==0){
+                        document.getElementById("healt2_1").innerHTML="---------2---------";
+                        count2+=1;
+                    }
+                    if(count2==1){
+                        document.getElementById("healt2_1").innerHTML="---------2-------";
+                        count2+=1;
+                    }
+                    if(count2==2){
+                        document.getElementById("healt2_1").innerHTML="---------2-----";
+                        count2+=1;
+                    }
+                    if(count2==3){
+                        document.getElementById("healt2_1").innerHTML="---------2---";
+                        count2+=1;
+                    }
+                    if(count2==4){
+                        document.getElementById("healt2_1").innerHTML="---------2-";
+                        count2+=1;
+                    }
+                    if(count2==5){
+                        document.getElementById("healt2_1").innerHTML="---------";
+                        document.getElementById("healt2_1").style.backgroundColor="rgb(255, 128, 0)";
+                        count2+=1;
+                    }
+                }
+            }
+        }*/
+        var counterNum1 = 1; counterNum1 = Number(counterNum1);
+
+        var bRTop = 70; bRTop = Number(bRTop);
+        var bRRight = 20; bRRight = Number(bRRight);
+
+        function Uu() {
+            if (counterNum1 == 2) {
+                counterNum1 = 3;
+                if (counterNum == 3) {
+                    document.getElementById("RSTENA").style.width = "0%";
+                    document.getElementById("RSTENA").style.height = "0%";
+                    document.getElementById("RSTENA").style.left = "99%";
+                    document.getElementById("RSTENA").style.top = "1%";
+                }
+            }
+            if (counterNum1 == 1) {
+                counterNum1 = 2;
+            }
+            if (bRTop - 20 >= 30 && bRRight - 10 >= 0 && counterNum1 == 3 && counterNum == 3) {
+                bRTop -= 20;
+                document.getElementById("b_r").style.top = bRTop.toString() + "%";
+                boolB_B = false;
+                boolB_R = true;
+                //live();
+
+                bRRight -= 10;
+                document.getElementById("b_r").style.right = bRRight.toString() + "%";
+                boolB_B = false;
+                boolB_R = true;
+
+                document.getElementById("b_r").src="move_left_red.png";
+
+                lavaCount = lavaCount + 1;
+                if (lavaCount == 40) {
+                    boolLava = true;
+                }
+                if (lavaCount >= 40 && lavaCount<=79 && boolLava == true) {
+                    document.getElementById("butt").style.backgroundColor = "rgb(255, 0, 0)";
+                    document.getElementById("butt").style.color = "rgb(255, 0, 0)";
+                    /*if (bRTop == 70) {
+                        count2 += 1;
+                    }*/
+                }
+                if (lavaCount == 80 && boolLava == true) {
+                    document.getElementById("butt").style.backgroundColor = "rgb(143, 90, 0)";
+                    document.getElementById("butt").style.color = "rgb(143, 90, 0)";
+                    lavaCount = 0;
+                }
+                countClickBrain=countClickBrain+1;
+                live();
+                xy(event);
+            }
+        }
+        function on2() {
+            if (counterNum1 == 2) {
+                counterNum1 = 3;
+                if (counterNum == 3) {
+                    document.getElementById("RSTENA").style.width = "0%";
+                    document.getElementById("RSTENA").style.height = "0%";
+                    document.getElementById("RSTENA").style.left = "99%";
+                    document.getElementById("RSTENA").style.top = "1%";
+                }
+            }
+            if (counterNum1 == 1) {
+                counterNum1 = 2;
+            }
+            if (bRTop - 20 >= 30 && counterNum1 == 3 && counterNum == 3) {
+                bRTop -= 20;
+                document.getElementById("b_r").style.top = bRTop.toString() + "%";
+                boolB_B = false;
+                boolB_R = true;
+
+                document.getElementById("b_r").src="jump_left _red.png";
+
+                lavaCount = lavaCount + 1;
+                if (lavaCount == 40) {
+                    boolLava = true;
+                }
+                if (lavaCount >= 40 && lavaCount<=79 && boolLava == true) {
+                    document.getElementById("butt").style.backgroundColor = "rgb(255, 0, 0)";
+                    document.getElementById("butt").style.color = "rgb(255, 0, 0)";
+                    /*if (bRTop == 70) {
+                        count2 += 1;
+                    }*/
+                }
+                if (lavaCount == 80 && boolLava == true) {
+                    document.getElementById("butt").style.backgroundColor = "rgb(143, 90, 0)";
+                    document.getElementById("butt").style.color = "rgb(143, 90, 0)";
+                    lavaCount = 0;
+                }
+                countClickBrain=countClickBrain+1;
+                live();
+                xy(event);
+            }
+        }
+        function Oo() {
+            if (counterNum1 == 2) {
+                counterNum1 = 3;
+                if (counterNum == 3) {
+                    document.getElementById("RSTENA").style.width = "0%";
+                    document.getElementById("RSTENA").style.height = "0%";
+                    document.getElementById("RSTENA").style.left = "99%";
+                    document.getElementById("RSTENA").style.top = "1%";
+                }
+            }
+            if (counterNum1 == 1) {
+                counterNum1 = 2;
+            }
+            if (bRTop - 20 >= 30 && bRRight + 10 <= 90 && counterNum1 == 3 && counterNum == 3) {
+                bRTop -= 20;
+                document.getElementById("b_r").style.top = bRTop.toString() + "%";
+                boolB_B = false;
+                boolB_R = true;
+                //live();
+
+                bRRight += 10;
+                document.getElementById("b_r").style.right = bRRight.toString() + "%";
+                boolB_B = false;
+                boolB_R = true;
+
+                document.getElementById("b_r").src="move_right_red.png";
+
+                lavaCount = lavaCount + 1;
+                if (lavaCount == 40) {
+                    boolLava = true;
+                }
+                if (lavaCount >= 40 && lavaCount<=79 && boolLava == true) {
+                    document.getElementById("butt").style.backgroundColor = "rgb(255, 0, 0)";
+                    document.getElementById("butt").style.color = "rgb(255, 0, 0)";
+                    /*if (bRTop == 70) {
+                        count2 += 1;
+                    }*/
+                }
+                if (lavaCount == 80 && boolLava == true) {
+                    document.getElementById("butt").style.backgroundColor = "rgb(143, 90, 0)";
+                    document.getElementById("butt").style.color = "rgb(143, 90, 0)";
+                    lavaCount = 0;
+                }
+                countClickBrain=countClickBrain+1;
+                live();
+                xy(event);
+            }
+        }
+        function left2() {
+            if (counterNum1 == 2) {
+                counterNum1 = 3;
+                if (counterNum == 3) {
+                    document.getElementById("RSTENA").style.width = "0%";
+                    document.getElementById("RSTENA").style.height = "0%";
+                    document.getElementById("RSTENA").style.left = "99%";
+                    document.getElementById("RSTENA").style.top = "1%";
+                }
+            }
+            if (counterNum1 == 1) {
+                counterNum1 = 2;
+            }
+            if (bRRight - 10 >= 0 && counterNum1 == 3 && counterNum == 3) {
+                bRRight -= 10;
+                document.getElementById("b_r").style.right = bRRight.toString() + "%";
+                boolB_B = false;
+                boolB_R = true;
+
+                document.getElementById("b_r").src="move_left_red.png";
+
+                lavaCount = lavaCount + 1;
+                if (lavaCount == 40) {
+                    boolLava = true;
+                }
+                if (lavaCount >= 40 && lavaCount<=79 && boolLava == true) {
+                    document.getElementById("butt").style.backgroundColor = "rgb(255, 0, 0)";
+                    document.getElementById("butt").style.color = "rgb(255, 0, 0)";
+                    /*if (bRTop == 70) {
+                        count2 += 1;
+                    }*/
+                }
+                if (lavaCount == 80 && boolLava == true) {
+                    document.getElementById("butt").style.backgroundColor = "rgb(143, 90, 0)";
+                    document.getElementById("butt").style.color = "rgb(143, 90, 0)";
+                    lavaCount = 0;
+                }
+                countClickBrain=countClickBrain+1;
+                live();
+                xy(event);
+            }
+        }
+        function under2() {
+            if (counterNum1 == 2) {
+                counterNum1 = 3;
+                if (counterNum == 3) {
+                    document.getElementById("RSTENA").style.width = "0%";
+                    document.getElementById("RSTENA").style.height = "0%";
+                    document.getElementById("RSTENA").style.left = "99%";
+                    document.getElementById("RSTENA").style.top = "1%";
+                }
+            }
+            if (counterNum1 == 1) {
+                counterNum1 = 2;
+            }
+            if (bRTop + 20 <= 70 && counterNum1 == 3 && counterNum == 3) {
+                bRTop += 20;
+                document.getElementById("b_r").style.top = bRTop.toString() + "%";
+                boolB_B = false;
+                boolB_R = true;
+
+                //document.getElementById("b_r").src="move_right_red.png";
+                document.getElementById("b_r").src="jump_left _red.png";
+
+                lavaCount = lavaCount + 1;
+                if (lavaCount == 40) {
+                    boolLava = true;
+                }
+                if (lavaCount >= 40 && lavaCount<=79 && boolLava == true) {
+                    document.getElementById("butt").style.backgroundColor = "rgb(255, 0, 0)";
+                    document.getElementById("butt").style.color = "rgb(255, 0, 0)";
+                    /*if (bRTop == 70) {
+                        count2 += 1;
+                    }*/
+                }
+                if (lavaCount == 80 && boolLava == true) {
+                    document.getElementById("butt").style.backgroundColor = "rgb(143, 90, 0)";
+                    document.getElementById("butt").style.color = "rgb(143, 90, 0)";
+                    lavaCount = 0;
+                }
+                countClickBrain=countClickBrain+1;
+                live();
+                xy(event);
+            }
+        }
+        function right2() {
+            if (counterNum1 == 2) {
+                counterNum1 = 3;
+                if (counterNum == 3) {
+                    document.getElementById("RSTENA").style.width = "0%";
+                    document.getElementById("RSTENA").style.height = "0%";
+                    document.getElementById("RSTENA").style.left = "99%";
+                    document.getElementById("RSTENA").style.top = "1%";
+                }
+            }
+            if (counterNum1 == 1) {
+                counterNum1 = 2;
+            }
+            if (bRRight + 10 <= 90 && counterNum1 == 3 && counterNum == 3) {
+                bRRight += 10;
+                document.getElementById("b_r").style.right = bRRight.toString() + "%";
+                boolB_B = false;
+                boolB_R = true;
+
+                document.getElementById("b_r").src="move_right_red.png";
+
+                lavaCount = lavaCount + 1;
+                if (lavaCount == 40) {
+                    boolLava = true;
+                }
+                if (lavaCount >= 40 && lavaCount<=79 && boolLava == true) {
+                    document.getElementById("butt").style.backgroundColor = "rgb(255, 0, 0)";
+                    document.getElementById("butt").style.color = "rgb(255, 0, 0)";
+                    /*if (bRTop == 70) {
+                        count2 += 1;
+                    }*/
+                }
+                if (lavaCount == 80 && boolLava == true) {
+                    document.getElementById("butt").style.backgroundColor = "rgb(143, 90, 0)";
+                    document.getElementById("butt").style.color = "rgb(143, 90, 0)";
+                    lavaCount = 0;
+                }
+                countClickBrain=countClickBrain+1;
+                live();
+                xy(event);
+            }
+        }
+        /*if(boolB_R==true){
+            if(bRTop==bBTop){
+                if((bRRight-bBRight)<=30 || (bBRight-bRRight)<=30){
+                    if(count1==0){
+                        document.getElementById("healt1_1").innerHTML="---------1---------";
+                        count1+=1;
+                    }
+                    if(count1==1){
+                        document.getElementById("healt1_1").innerHTML="---------1-------";
+                        count1+=1;
+                    }
+                    if(count1==2){
+                        document.getElementById("healt1_1").innerHTML="---------1-----";
+                        count1+=1;
+                    }
+                    if(count1==3){
+                        document.getElementById("healt1_1").innerHTML="---------1---";
+                        count1+=1;
+                    }
+                    if(count1==4){
+                        document.getElementById("healt1_1").innerHTML="---------1-";
+                        count1+=1;
+                    }
+                    if(count1==5){
+                        document.getElementById("healt1_1").innerHTML="---------";
+                        document.getElementById("healt1_1").style.backgroundColor="rgb(255, 128, 0)";
+                        count1+=1;
+                    }
+                }
+            }
+        }*/
+        /*function bgRandom(){
+            if(polFemale==false && polMale==false){
+                var red=Math.random()*256;
+                var green=Math.random()*256;
+                var blue=Math.random()*256;
+                var colorbg="rgb("+red+","+green+","+blue+")";
+                console.log(colorbg);
+                document.body.style.backgroundColor=colorbg;
+            }
+        }*/
+
+        function live() {
+            if (boolB_B == true) {
+                if (bBTop == bRTop) {
+                    if (((bBRight - bRRight) <= 20 && (bBRight - bRRight) >= 0) || ((bRRight - bBRight) <= 20 && (bRRight - bBRight) >= 0)) {
+                        if (count2 == 9) {
+                            audioFinush();
+                            document.getElementById("healt2_1").innerHTML = "-";
+                            document.getElementById("healt2_1").style.backgroundColor = "rgb(255, 0, 0)";
+                            document.getElementById("healt2_1").style.color = "rgb(0, 0, 0)";
+                            count2 += 1;
+                        }
+                        if (count2 == 8) {
+                            document.getElementById("healt2_1").innerHTML = "---";
+                            document.getElementById("healt2_1").style.backgroundColor = "rgb(255, 0, 0)";
+                            document.getElementById("healt2_1").style.color = "rgb(0, 0, 0)";
+                            count2 += 1;
+                        }
+                        if (count2 == 7) {
+                            document.getElementById("healt2_1").innerHTML = "-----";
+                            document.getElementById("healt2_1").style.backgroundColor = "rgb(255, 0, 0)";
+                            document.getElementById("healt2_1").style.color = "rgb(0, 0, 0)";
+                            count2 += 1;
+                        }
+                        if (count2 == 6) {
+                            document.getElementById("healt2_1").innerHTML = "-------";
+                            document.getElementById("healt2_1").style.backgroundColor = "rgb(255, 128, 0)";
+                            count2 += 1;
+                        }
+                        if (count2 == 5) {
+                            document.getElementById("healt2_1").innerHTML = "---------";
+                            document.getElementById("healt2_1").style.backgroundColor = "rgb(255, 128, 0)";
+                            count2 += 1;
+                        }
+                        if (count2 == 4) {
+                            document.getElementById("healt2_1").innerHTML = "-----------";
+                            count2 += 1;
+                        }
+                        if (count2 == 3) {
+                            document.getElementById("healt2_1").innerHTML = "-------------";
+                            count2 += 1;
+                        }
+                        if (count2 == 2) {
+                            document.getElementById("healt2_1").innerHTML = "---------------";
+                            count2 += 1;
+                        }
+                        if (count2 == 1) {
+                            document.getElementById("healt2_1").innerHTML = "-----------------";
+                            count2 += 1;
+                        }
+                        if (count2 == 0) {
+                            document.getElementById("healt2_1").innerHTML = "-------------------";
+                            count2 += 1;
+                        }
+                        audioAttack();
+                    }
+                }
+                if ((lavaCount>=40 && lavaCount<=79) && (bBTop==70)) {
+                    if (count1 == 9) {
+                        audioFinush();
+                        document.getElementById("healt1_1").innerHTML = "-";
+                        document.getElementById("healt1_1").style.backgroundColor = "rgb(255, 0, 0)";
+                        document.getElementById("healt1_1").style.color = "rgb(0, 0, 0)";
+                        count1 += 1;
+                    }
+                    if (count1 == 8) {
+                        document.getElementById("healt1_1").innerHTML = "---";
+                        document.getElementById("healt1_1").style.backgroundColor = "rgb(255, 0, 0)";
+                        document.getElementById("healt1_1").style.color = "rgb(0, 0, 0)";
+                        count1 += 1;
+                    }
+                    if (count1 == 7) {
+                        document.getElementById("healt1_1").innerHTML = "-----";
+                        document.getElementById("healt1_1").style.backgroundColor = "rgb(255, 0, 0)";
+                        document.getElementById("healt1_1").style.color = "rgb(0, 0, 0)";
+                        count1 += 1;
+                    }
+                    if (count1 == 6) {
+                        document.getElementById("healt1_1").innerHTML = "-------";
+                        document.getElementById("healt1_1").style.backgroundColor = "rgb(255, 128, 0)";
+                        count1 += 1;
+                    }
+                    if (count1 == 5) {
+                        document.getElementById("healt1_1").innerHTML = "---------";
+                        document.getElementById("healt1_1").style.backgroundColor = "rgb(255, 128, 0)";
+                        count1 += 1;
+                    }
+                    if (count1 == 4) {
+                        document.getElementById("healt1_1").innerHTML = "-----------";
+                        count1 += 1;
+                    }
+                    if (count1 == 3) {
+                        document.getElementById("healt1_1").innerHTML = "-------------";
+                        count1 += 1;
+                    }
+                    if (count1 == 2) {
+                        document.getElementById("healt1_1").innerHTML = "---------------";
+                        count1 += 1;
+                    }
+                    if (count1 == 1) {
+                        document.getElementById("healt1_1").innerHTML = "-----------------";
+                        count1 += 1;
+                    }
+                    if (count1 == 0) {
+                        document.getElementById("healt1_1").innerHTML = "-------------------";
+                        count1 += 1;
+                    }
+                    audioAttack();
+                }
+            }
+            if (boolB_R == true) {
+                if (bRTop == bBTop) {
+                    if (((bRRight - bBRight) <= 20 && (bRRight - bBRight) >= 0) || ((bBRight - bRRight) <= 20 && (bBRight - bRRight) >= 0)) {
+                        if (count1 == 9) {
+                            audioFinush();
+                            document.getElementById("healt1_1").innerHTML = "-";
+                            document.getElementById("healt1_1").style.backgroundColor = "rgb(255, 0, 0)";
+                            document.getElementById("healt1_1").style.color = "rgb(0, 0, 0)";
+                            count1 += 1;
+                        }
+                        if (count1 == 8) {
+                            document.getElementById("healt1_1").innerHTML = "---";
+                            document.getElementById("healt1_1").style.backgroundColor = "rgb(255, 0, 0)";
+                            document.getElementById("healt1_1").style.color = "rgb(0, 0, 0)";
+                            count1 += 1;
+                        }
+                        if (count1 == 7) {
+                            document.getElementById("healt1_1").innerHTML = "-----";
+                            document.getElementById("healt1_1").style.backgroundColor = "rgb(255, 0, 0)";
+                            document.getElementById("healt1_1").style.color = "rgb(0, 0, 0)";
+                            count1 += 1;
+                        }
+                        if (count1 == 6) {
+                            document.getElementById("healt1_1").innerHTML = "-------";
+                            document.getElementById("healt1_1").style.backgroundColor = "rgb(255, 128, 0)";
+                            count1 += 1;
+                        }
+                        if (count1 == 5) {
+                            document.getElementById("healt1_1").innerHTML = "---------";
+                            document.getElementById("healt1_1").style.backgroundColor = "rgb(255, 128, 0)";
+                            count1 += 1;
+                        }
+                        if (count1 == 4) {
+                            document.getElementById("healt1_1").innerHTML = "-----------";
+                            count1 += 1;
+                        }
+                        if (count1 == 3) {
+                            document.getElementById("healt1_1").innerHTML = "-------------";
+                            count1 += 1;
+                        }
+                        if (count1 == 2) {
+                            document.getElementById("healt1_1").innerHTML = "---------------";
+                            count1 += 1;
+                        }
+                        if (count1 == 1) {
+                            document.getElementById("healt1_1").innerHTML = "-----------------";
+                            count1 += 1;
+                        }
+                        if (count1 == 0) {
+                            document.getElementById("healt1_1").innerHTML = "-------------------";
+                            count1 += 1;
+                        }
+                        audioAttack();
+                    }
+                }
+                if ((lavaCount>=40 && lavaCount<=79) && (bRTop==70)) {
+                    if (count2 == 9) {
+                        audioFinush();
+                        document.getElementById("healt2_1").innerHTML = "-";
+                        document.getElementById("healt2_1").style.backgroundColor = "rgb(255, 0, 0)";
+                        document.getElementById("healt2_1").style.color = "rgb(0, 0, 0)";
+                        count2 += 1;
+                    }
+                    if (count2 == 8) {
+                        document.getElementById("healt2_1").innerHTML = "---";
+                        document.getElementById("healt2_1").style.backgroundColor = "rgb(255, 0, 0)";
+                        document.getElementById("healt2_1").style.color = "rgb(0, 0, 0)";
+                        count2 += 1;
+                    }
+                    if (count2 == 7) {
+                        document.getElementById("healt2_1").innerHTML = "-----";
+                        document.getElementById("healt2_1").style.backgroundColor = "rgb(255, 0, 0)";
+                        document.getElementById("healt2_1").style.color = "rgb(0, 0, 0)";
+                        count2 += 1;
+                    }
+                    if (count2 == 6) {
+                        document.getElementById("healt2_1").innerHTML = "-------";
+                        document.getElementById("healt2_1").style.backgroundColor = "rgb(255, 128, 0)";
+                        count2 += 1;
+                    }
+                    if (count2 == 5) {
+                        document.getElementById("healt2_1").innerHTML = "---------";
+                        document.getElementById("healt2_1").style.backgroundColor = "rgb(255, 128, 0)";
+                        count2 += 1;
+                    }
+                    if (count2 == 4) {
+                        document.getElementById("healt2_1").innerHTML = "-----------";
+                        count2 += 1;
+                    }
+                    if (count2 == 3) {
+                        document.getElementById("healt2_1").innerHTML = "-------------";
+                        count2 += 1;
+                    }
+                    if (count2 == 2) {
+                        document.getElementById("healt2_1").innerHTML = "---------------";
+                        count2 += 1;
+                    }
+                    if (count2 == 1) {
+                        document.getElementById("healt2_1").innerHTML = "-----------------";
+                        count2 += 1;
+                    }
+                    if (count2 == 0) {
+                        document.getElementById("healt2_1").innerHTML = "-------------------";
+                        count2 += 1;
+                    }
+                    audioAttack();
+                }
+            }
+            if (count1 == 10) {
+                document.body.style.backgroundColor = "rgb(255, 0, 0)";
+                alert("Red Win!");
+                //restart();
+                var strGame = prompt("New game  Y/N");
+                if (strGame == "Y" || strGame == "y") {
+                    /*document.getElementById("healt1_1").style.color = "rgb(255, 0, 0)";
+                    document.getElementById("healt1_1").style.backgroundColor = "rgb(0, 255, 0)";
+                    document.getElementById("healt1_1").style.position = "absolute";
+                    document.getElementById("healt1_1").style.width = "112px";
+                    document.getElementById("healt1_1").style.height = "15px";
+                    document.getElementById("healt1_1").style.top = "25%";
+                    document.getElementById("healt1_1").style.right = "70%";
+                    //document.getElementById("healt1_1").style.left="20%";
+
+                    document.getElementById("healt2_1").style.color = "rgb(255, 0, 0)";
+                    document.getElementById("healt2_1").style.backgroundColor = "rgb(0, 255, 0)";
+                    document.getElementById("healt2_1").style.position = "absolute";
+                    document.getElementById("healt2_1").style.width = "112px";
+                    document.getElementById("healt2_1").style.height = "15px";
+                    document.getElementById("healt2_1").style.top = "25%";
+                    document.getElementById("healt2_1").style.right = "30%";//30
+
+                    document.getElementById("b_b").style.width = "100px";
+                    document.getElementById("b_b").style.height = "100px";
+                    document.getElementById("b_b").style.top = "70%";
+                    document.getElementById("b_b").style.right = "73%";
+                    //document.getElementById("b_b").style.left="20%";
+
+                    document.getElementById("b_r").style.width = "100px";
+                    document.getElementById("b_r").style.height = "100px";
+                    document.getElementById("b_r").style.top = "70%";
+                    document.getElementById("b_r").style.right = "20%";
+
+                    document.body.style.backgroundColor = "rgb(255, 255, 255)";
+
+                    document.getElementById("healt1_1").innerHTML = "---------------------";
+                    document.getElementById("healt2_1").innerHTML = "---------------------";
+
+                    bBTop = 70;
+                    bBRight = 70;
+
+                    bRTop = 70;
+                    bRRight = 20;
+
+                    count1 = 0;
+                    count2 = 0;*/
+
+                    lavaCount = 0;
+                    boolLava = false;
+
+                    counterNum=0;
+                    counterNum1=0;
+
+                    bBTop=70;
+                    bBRight=70;
+
+                    bRTop=70;
+                    bRRight=20;
+
+                    boolB_B=false;
+                    boolB_R=false;
+
+                    count1=0;
+                    count2=0;
+
+                    document.body.style.backgroundColor = "rgb(255, 0, 0)";
+                    menu();
+                }
+                if (strGame == "N" || strGame == "n") {
+                    document.getElementById("butt").style.borderRadius = "50%";
+                    document.getElementById("butt").style.width = "150px";
+                    document.getElementById("butt").style.height = "150px";
+                    document.getElementById("butt").innerHTML = "Try it!";
+                    document.getElementById("butt").style.position = "absolute";
+                    document.getElementById("butt").style.alignItems = "center";
+                    document.getElementById("butt").style.left = "45%";
+                    document.getElementById("butt").style.backgroundColor = "rgb(0, 0, 0)";
+                    document.getElementById("butt").style.color = "rgb(255, 0, 0)";
+                    document.getElementById("butt").style.fontSize = "30px";
+                    document.getElementById("butt").style.top = "30%";
+
+                    document.getElementById("healt1_1").style.color = "rgb(255, 255, 255)";
+                    document.getElementById("healt1_1").style.backgroundColor = "rgb(255, 255, 255)";
+                    document.getElementById("healt1_1").style.position = "absolute";
+                    document.getElementById("healt1_1").style.width = "0px";
+                    document.getElementById("healt1_1").style.height = "0px";
+
+                    document.getElementById("healt2_1").style.color = "rgb(255, 255, 255)";
+                    document.getElementById("healt2_1").style.backgroundColor = "rgb(255, 255, 255)";
+                    document.getElementById("healt2_1").style.position = "absolute";
+                    document.getElementById("healt2_1").style.width = "0px";
+                    document.getElementById("healt2_1").style.height = "0px";
+
+                    document.getElementById("b_b").style.width = "0px";
+                    document.getElementById("b_b").style.height = "0px";
+
+                    document.getElementById("b_r").style.width = "0px";
+                    document.getElementById("b_r").style.height = "0px";
+
+                    document.getElementById("Q").style.width = "0px";
+                    document.getElementById("Q").style.height = "0px";
+                    document.getElementById("Q").style.fontSize = "0%";
+                    document.getElementById("Q").style.backgroundColor = "rgb(255, 255, 255)";
+                    document.getElementById("Q").style.color = "rgb(255, 255, 255)";
+
+                    document.getElementById("W").style.width = "0px";
+                    document.getElementById("W").style.height = "0px";
+                    document.getElementById("W").style.fontSize = "0%";
+                    document.getElementById("W").style.backgroundColor = "rgb(255, 255, 255)";
+                    document.getElementById("W").style.color = "rgb(255, 255, 255)";
+
+                    document.getElementById("E").style.width = "0px";
+                    document.getElementById("E").style.height = "0px";
+                    document.getElementById("E").style.fontSize = "0%";
+                    document.getElementById("E").style.backgroundColor = "rgb(255, 255, 255)";
+                    document.getElementById("E").style.color = "rgb(255, 255, 255)";
+
+                    document.getElementById("A").style.width = "0px";
+                    document.getElementById("A").style.height = "0px";
+                    document.getElementById("A").style.fontSize = "0%";
+                    document.getElementById("A").style.backgroundColor = "rgb(255, 255, 255)";
+                    document.getElementById("A").style.color = "rgb(255, 255, 255)";
+
+                    document.getElementById("S").style.width = "0px";
+                    document.getElementById("S").style.height = "0px";
+                    document.getElementById("S").style.fontSize = "0%";
+                    document.getElementById("S").style.backgroundColor = "rgb(255, 255, 255)";
+                    document.getElementById("S").style.color = "rgb(255, 255, 255)";
+
+                    document.getElementById("D").style.width = "0px";
+                    document.getElementById("D").style.height = "0px";
+                    document.getElementById("D").style.fontSize = "0%";
+                    document.getElementById("D").style.backgroundColor = "rgb(255, 255, 255)";
+                    document.getElementById("D").style.color = "rgb(255, 255, 255)";
+
+                    document.getElementById("U").style.width = "0px";
+                    document.getElementById("U").style.height = "0px";
+                    document.getElementById("U").style.fontSize = "0%";
+                    document.getElementById("U").style.backgroundColor = "rgb(255, 255, 255)";
+                    document.getElementById("U").style.color = "rgb(255, 255, 255)";
+
+                    document.getElementById("I").style.width = "0px";
+                    document.getElementById("I").style.height = "0px";
+                    document.getElementById("I").style.fontSize = "0%";
+                    document.getElementById("I").style.backgroundColor = "rgb(255, 255, 255)";
+                    document.getElementById("I").style.color = "rgb(255, 255, 255)";
+
+                    document.getElementById("O").style.width = "0px";
+                    document.getElementById("O").style.height = "0px";
+                    document.getElementById("O").style.fontSize = "0%";
+                    document.getElementById("O").style.backgroundColor = "rgb(255, 255, 255)";
+                    document.getElementById("O").style.color = "rgb(255, 255, 255)";
+
+                    document.getElementById("J").style.width = "0px";
+                    document.getElementById("J").style.height = "0px";
+                    document.getElementById("J").style.fontSize = "0%";
+                    document.getElementById("J").style.backgroundColor = "rgb(255, 255, 255)";
+                    document.getElementById("J").style.color = "rgb(255, 255, 255)";
+
+                    document.getElementById("K").style.width = "0px";
+                    document.getElementById("K").style.height = "0px";
+                    document.getElementById("K").style.fontSize = "0%";
+                    document.getElementById("K").style.backgroundColor = "rgb(255, 255, 255)";
+                    document.getElementById("K").style.color = "rgb(255, 255, 255)";
+
+                    document.getElementById("L").style.width = "0px";
+                    document.getElementById("L").style.height = "0px";
+                    document.getElementById("L").style.fontSize = "0%";
+                    document.getElementById("L").style.backgroundColor = "rgb(255, 255, 255)";
+                    document.getElementById("L").style.color = "rgb(255, 255, 255)";
+
+                    document.body.style.backgroundColor = "rgb(255, 255, 255)";
+                }
+            }
+            if (count2 == 10) {
+                document.body.style.backgroundColor = "rgb(0, 21, 255)";
+                alert("Blue Win!");
+                //restart();
+                var strGame = prompt("New game  Y/N");
+                if (strGame == "Y" || strGame == "y") {
+                    /*document.getElementById("healt1_1").style.color = "rgb(255, 0, 0)";
+                    document.getElementById("healt1_1").style.backgroundColor = "rgb(0, 255, 0)";
+                    document.getElementById("healt1_1").style.position = "absolute";
+                    document.getElementById("healt1_1").style.width = "112px";
+                    document.getElementById("healt1_1").style.height = "15px";
+                    document.getElementById("healt1_1").style.top = "25%";
+                    document.getElementById("healt1_1").style.right = "70%";
+                    //document.getElementById("healt1_1").style.left="20%";
+
+                    document.getElementById("healt2_1").style.color = "rgb(255, 0, 0)";
+                    document.getElementById("healt2_1").style.backgroundColor = "rgb(0, 255, 0)";
+                    document.getElementById("healt2_1").style.position = "absolute";
+                    document.getElementById("healt2_1").style.width = "112px";
+                    document.getElementById("healt2_1").style.height = "15px";
+                    document.getElementById("healt2_1").style.top = "25%";
+                    document.getElementById("healt2_1").style.right = "30%";//30
+
+                    document.getElementById("b_b").style.width = "100px";
+                    document.getElementById("b_b").style.height = "100px";
+                    document.getElementById("b_b").style.top = "70%";
+                    document.getElementById("b_b").style.right = "73%";
+                    //document.getElementById("b_b").style.left="20%";
+
+                    document.getElementById("b_r").style.width = "100px";
+                    document.getElementById("b_r").style.height = "100px";
+                    document.getElementById("b_r").style.top = "70%";
+                    document.getElementById("b_r").style.right = "20%";
+
+                    document.body.style.backgroundColor = "rgb(255, 255, 255)";
+
+                    document.getElementById("healt1_1").innerHTML = "--------------------";
+                    document.getElementById("healt2_1").innerHTML = "--------------------";
+
+                    bBTop = 70;
+                    bBRight = 70;
+
+                    bRTop = 70;
+                    bRRight = 20;
+
+                    count1 = 0;
+                    count2 = 0;
+                    */
+
+                    lavaCount = 0;
+                    boolLava = false;
+
+                    counterNum=0;
+                    counterNum1=0;
+
+                    bBTop=70;
+                    bBRight=70;
+
+                    bRTop=70;
+                    bRRight=20;
+
+                    boolB_B=false;
+                    boolB_R=false;
+
+                    count1=0;
+                    count2=0;
+
+                    document.getElementById("healt1_1").style.color = "rgb(0, 0, 255)";
+                    menu();
+                }
+                if (strGame == "N" || strGame == "n") {
+                    document.getElementById("butt").style.borderRadius = "50%";
+                    document.getElementById("butt").style.width = "150px";
+                    document.getElementById("butt").style.height = "150px";
+                    document.getElementById("butt").innerHTML = "Try it!";
+                    document.getElementById("butt").style.position = "absolute";
+                    document.getElementById("butt").style.alignItems = "center";
+                    document.getElementById("butt").style.left = "45%";
+                    document.getElementById("butt").style.backgroundColor = "rgb(0, 0, 0)";
+                    document.getElementById("butt").style.color = "rgb(255, 0, 0)";
+                    document.getElementById("butt").style.fontSize = "30px";
+                    document.getElementById("butt").style.top = "30%";
+
+                    document.getElementById("healt1_1").style.color = "rgb(255, 255, 255)";
+                    document.getElementById("healt1_1").style.backgroundColor = "rgb(255, 255, 255)";
+                    document.getElementById("healt1_1").style.position = "absolute";
+                    document.getElementById("healt1_1").style.width = "0px";
+                    document.getElementById("healt1_1").style.height = "0px";
+
+                    document.getElementById("healt2_1").style.color = "rgb(255, 255, 255)";
+                    document.getElementById("healt2_1").style.backgroundColor = "rgb(255, 255, 255)";
+                    document.getElementById("healt2_1").style.position = "absolute";
+                    document.getElementById("healt2_1").style.width = "0px";
+                    document.getElementById("healt2_1").style.height = "0px";
+
+                    document.getElementById("b_b").style.width = "0px";
+                    document.getElementById("b_b").style.height = "0px";
+
+                    document.getElementById("b_r").style.width = "0px";
+                    document.getElementById("b_r").style.height = "0px";
+
+                    document.getElementById("Q").style.width = "0px";
+                    document.getElementById("Q").style.height = "0px";
+                    document.getElementById("Q").style.fontSize = "0%";
+                    document.getElementById("Q").style.backgroundColor = "rgb(255, 255, 255)";
+                    document.getElementById("Q").style.color = "rgb(255, 255, 255)";
+
+                    document.getElementById("W").style.width = "0px";
+                    document.getElementById("W").style.height = "0px";
+                    document.getElementById("W").style.fontSize = "0%";
+                    document.getElementById("W").style.backgroundColor = "rgb(255, 255, 255)";
+                    document.getElementById("W").style.color = "rgb(255, 255, 255)";
+
+                    document.getElementById("E").style.width = "0px";
+                    document.getElementById("E").style.height = "0px";
+                    document.getElementById("E").style.fontSize = "0%";
+                    document.getElementById("E").style.backgroundColor = "rgb(255, 255, 255)";
+                    document.getElementById("E").style.color = "rgb(255, 255, 255)";
+
+                    document.getElementById("A").style.width = "0px";
+                    document.getElementById("A").style.height = "0px";
+                    document.getElementById("A").style.fontSize = "0%";
+                    document.getElementById("A").style.backgroundColor = "rgb(255, 255, 255)";
+                    document.getElementById("A").style.color = "rgb(255, 255, 255)";
+
+                    document.getElementById("S").style.width = "0px";
+                    document.getElementById("S").style.height = "0px";
+                    document.getElementById("S").style.fontSize = "0%";
+                    document.getElementById("S").style.backgroundColor = "rgb(255, 255, 255)";
+                    document.getElementById("S").style.color = "rgb(255, 255, 255)";
+
+                    document.getElementById("D").style.width = "0px";
+                    document.getElementById("D").style.height = "0px";
+                    document.getElementById("D").style.fontSize = "0%";
+                    document.getElementById("D").style.backgroundColor = "rgb(255, 255, 255)";
+                    document.getElementById("D").style.color = "rgb(255, 255, 255)";
+
+                    document.getElementById("U").style.width = "0px";
+                    document.getElementById("U").style.height = "0px";
+                    document.getElementById("U").style.fontSize = "0%";
+                    document.getElementById("U").style.backgroundColor = "rgb(255, 255, 255)";
+                    document.getElementById("U").style.color = "rgb(255, 255, 255)";
+
+                    document.getElementById("I").style.width = "0px";
+                    document.getElementById("I").style.height = "0px";
+                    document.getElementById("I").style.fontSize = "0%";
+                    document.getElementById("I").style.backgroundColor = "rgb(255, 255, 255)";
+                    document.getElementById("I").style.color = "rgb(255, 255, 255)";
+
+                    document.getElementById("O").style.width = "0px";
+                    document.getElementById("O").style.height = "0px";
+                    document.getElementById("O").style.fontSize = "0%";
+                    document.getElementById("O").style.backgroundColor = "rgb(255, 255, 255)";
+                    document.getElementById("O").style.color = "rgb(255, 255, 255)";
+
+                    document.getElementById("J").style.width = "0px";
+                    document.getElementById("J").style.height = "0px";
+                    document.getElementById("J").style.fontSize = "0%";
+                    document.getElementById("J").style.backgroundColor = "rgb(255, 255, 255)";
+                    document.getElementById("J").style.color = "rgb(255, 255, 255)";
+
+                    document.getElementById("K").style.width = "0px";
+                    document.getElementById("K").style.height = "0px";
+                    document.getElementById("K").style.fontSize = "0%";
+                    document.getElementById("K").style.backgroundColor = "rgb(255, 255, 255)";
+                    document.getElementById("K").style.color = "rgb(255, 255, 255)";
+
+                    document.getElementById("L").style.width = "0px";
+                    document.getElementById("L").style.height = "0px";
+                    document.getElementById("L").style.fontSize = "0%";
+                    document.getElementById("L").style.backgroundColor = "rgb(255, 255, 255)";
+                    document.getElementById("L").style.color = "rgb(255, 255, 255)";
+
+                    document.body.style.backgroundColor = "rgb(255, 255, 255)";
+                }
+            }
+        }
+    </script>
+</body>
+</html>
