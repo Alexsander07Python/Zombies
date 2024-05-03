@@ -15,10 +15,10 @@ A battle between zombies.
 
 
 ## Used technologies
-- <img src="/Glagolica/Pages/html_icon-removebg.png" width="15" height="15"> HTML <br>
-- <img src="/Glagolica/Pages/css_icon-removebg.png" width="15" height="15"> CSS <br>
-- <img src="/Glagolica/Pages/js_icon-removebg.png" width="15" height="15"> JS <br>
-- <img src="/Glagolica/Pages/VSCode-removebg.png" width="15" height="15"> Visual Studio Code<br>
+- <img src="/Game_HTML_CSS_JS/html_icon-removebg.png" width="15" height="15"> HTML <br>
+- <img src="/Game_HTML_CSS_JS/css_icon-removebg.png" width="15" height="15"> CSS <br>
+- <img src="/Game_HTML_CSS_JS/js_icon-removebg.png" width="15" height="15"> JS <br>
+- <img src="/Game_HTML_CSS_JS/VSCode-removebg.png" width="15" height="15"> Visual Studio Code<br>
 - <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/GitHub_Invertocat_Logo.svg/300px-GitHub_Invertocat_Logo.svg.png" width="15" height="15"> GitHub <br>
 
 
